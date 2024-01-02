@@ -1,0 +1,11 @@
+.card-image {
+  width: 20%;
+  background-color: #393c49 !important;
+  color: white !important;
+}
+
+.meals-container {
+  overflow-x: auto !important;
+  max-width: 100% !important;
+  padding: 15px !important; /* Add padding for better appearance */
+}

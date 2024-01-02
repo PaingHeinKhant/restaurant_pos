@@ -1,0 +1,9 @@
+.active-side-bar {
+  background-color: #ea7c69;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.active-sidebar-text {
+  color: white;
+}

@@ -1,0 +1,14 @@
+.search-bar-width {
+  width: 50% !important;
+  background-color: #252836 !important;
+  caret-color: white;
+  border: #252836;
+}
+.search-bar-width::placeholder {
+  color: white !important;
+}
+
+.meal-scroll-container {
+  max-height: 100vh;
+  overflow-y: auto;
+}

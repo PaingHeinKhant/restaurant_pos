@@ -1,0 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.color-orange {
+  color: #ea7c69;
+}
+
+.base-bg-one {
+  background-color: #1f1d2b;
+}
+.base-bg-two {
+  background-color: #393c49;
+}
