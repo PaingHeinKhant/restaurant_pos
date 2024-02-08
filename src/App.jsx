@@ -1,8 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
+import Mainorder from "./pages/Mainorder";
 import Dashboard from "./pages/Dashboard";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Tables from "./pages/Tables";
 
 const App = () => {
   return (
@@ -15,8 +18,8 @@ const App = () => {
           <div className="col-11 p-0">
             <Router>
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/tables" element={<Tables />} />
+                <Route path="/table/:tableName" element={<Mainorder />} />{" "}
               </Routes>
             </Router>
           </div>

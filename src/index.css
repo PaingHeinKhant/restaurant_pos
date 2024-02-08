@@ -8,10 +8,17 @@ body {
 .color-orange {
   color: #ea7c69;
 }
+.background-color-orange {
+  background-color: #ea7c69 !important;
+}
 
 .base-bg-one {
   background-color: #1f1d2b;
 }
 .base-bg-two {
   background-color: #393c49;
+}
+.background-btn {
+  background-color: #ea7c69 !important;
+  color: white !important;
 }

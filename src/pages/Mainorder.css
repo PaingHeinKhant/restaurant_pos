@@ -9,6 +9,13 @@
 }
 
 .meal-scroll-container {
-  max-height: 100vh;
   overflow-y: auto;
+  max-height: 100vh;
+}
+
+.meal-category-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #393c49;
 }

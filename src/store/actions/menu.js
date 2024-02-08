@@ -17,6 +17,7 @@ export const menu = (strCategory) => async (dispatch) => {
     const mealsWithPrices = responseArr.map((meal) => ({
       ...meal,
       price: getRandomPrice(),
+      available: getAvailable(),
     }));
     dispatch({
       type: type.MENU_DATA_SUCCESS,
@@ -31,4 +32,8 @@ export const menu = (strCategory) => async (dispatch) => {
 
 const getRandomPrice = () => {
   return Math.floor(Math.random() * 20000 + 5);
+};
+
+const getAvailable = () => {
+  return Math.floor(Math.random() * 23 + 5);
 };

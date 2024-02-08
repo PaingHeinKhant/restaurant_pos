@@ -1,5 +1,6 @@
-.card-image {
+/* .card-image {
   width: 20%;
+  height: 50%;
   background-color: #393c49 !important;
   color: white !important;
 }
@@ -8,4 +9,46 @@
   overflow-x: auto !important;
   max-width: 100% !important;
   padding: 15px !important; /* Add padding for better appearance */
+/* } */
+.card-container {
+  flex: 0 0 calc(33.3333% - 20px); /* Adjust the width as needed */
+  max-width: calc(33.3333% - 20px); /* Adjust the width as needed */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card-container .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #393c49 !important;
+  color: white;
+}
+
+.card-container .card .card-body {
+  flex-grow: 1;
+}
+
+.card-container .card .btn {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Additional styling for better button alignment */
+.card-container .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-container .card .btn {
+  width: 90%;
+  height: 11%;
+}
+
+.card-img-top {
+  border-radius: 0px !important;
 }
